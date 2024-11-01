@@ -34,6 +34,8 @@
 }
 		
 .user_form{
+	position: relative;
+        z-index: 1;
 	margin-left: 5%;
 	margin-right: 5%;
 	background-color: #040b1c;
