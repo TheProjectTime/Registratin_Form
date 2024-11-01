@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Student Registration Form</title>
+	<link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+	<div class="background"></div>
+
+	<div class="warning">
+		<p>Please switch to desktop mode to fill the Registration Form!</p>
+	</div>
+    
+    <form class="user_form" action="https://getform.io/f/axooolrb" method="POST" enctype="multipart/form-data" >
+    	<div class="form_heading">
+    		<h1> <mark style="background-color:#365486; color:#DCF2F1">&nbsp;REGISTRATION </mark>
+            <mark style="background-color:#DCF2F1; color:#365486">&nbsp;FORM&nbsp;</mark> </h1>
+        </div>
+        
+        <hr>
+
+        <marquee id="notice">Please be very careful while filing the Application Form &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Last Date of filling the Application Form is <mark>20-11-2024</mark></marquee>
+
+
+	    <table width="100%" cellpadding="3">
+
+		    <tr>
+		     	<td class="headings" colspan="2">Personal Details</td>
+		    </tr>
+		    <hr>
+		    <tr>
+			    <td class="data">
+				    <label>Name</label>
+				    <br><br>
+			    </td>
+			    <td>
+				    <input type="text" name="user_name" placeholder="Enter your full name" required>
+				    <br><br>
+			    </td>
+		    </tr>
+		    <tr>
+			    <td class="data">
+				    <label>Father's Name</label>
+				    <br><br>
+			    </td>
+			    <td>
+				    <input type="text" name="father's_name" placeholder="Enter your father's name" required>
+				    <br><br>
+			    </td>
+		    </tr>
+		    <tr>
+			    <td class="data">
+				    <label>Mother's Name</label>
+				    <br><br>
+			    </td>
+			    <td>
+				    <input type="text" name="mother's_name" placeholder="Enter your mother's name" required>
+				    <br><br>
+			    </td>
+		    </tr>
+		    <tr>
+			    <td class="data">
+			    	<label>Date of Birth</label>
+			    	<br><br>
+			    </td>
+			    <td>
+				    <input type="Date" name="date_of_birth" required>
+				    <br><br>
+			    </td>
+		    </tr>
+		    <tr>
+			    <td class="data">
+				    <label>Gender</label>
+				    <br><br>
+			    </td>
+			    <td class="data">
+				    <input type="radio" name="gender" value="Male" required>Male
+				    <input type="radio" name="gender" value="Female">Female
+				    <input type="radio" name="gender" value="Other">Other
+				    <br><br>
+			    </td>
+		    </tr>
+		    <tr>
+			    <td class="data">
+				    <label>Category</label>
+				    <br><br>
+			    </td>
+			    <td>
+				    <select name="category" required>
+					    <option disabled selected>Select</option><option>ST/ SC</option><option>BC-I</option><option>BC-II</option><option>General</option>
+				    </select>
+				    <br><br>
+			    </td>
+		    </tr>
+            
+            <tr>
+			    <td  class="headings" colspan="2">Course Details</td>
+		    </tr>
+            <tr>
+            	<td class="data">
+            		<label>College Name</label>
+            		<br><br>
+            	</td>
+            	<td>
+            		<input type="text" name="college" placeholder="Enter college name" required>
+            		<br><br>
+            	</td>
+            </tr>
+            <tr>
+            	<td class="data">
+            		<label>Course Name</label>
+            		<br><br>
+            	</td>
+            	<td>
+            		<select name="course" required>
+            			<option disabled selected>Select</option><option>Becholar in Computer Application (BCA)</option><option>Master in Computer Application (MCA)</option>
+            		</select>
+            		<br><br>
+            	</td>
+            </tr>
+            <tr>
+            	<td class="data">
+            		<label>Registration Number</label>
+            		<br><br>
+            	</td>
+            	<td>
+            		<input type="Number" name="reg_No" placeholder="(Ex : 2021147274)" required>
+            		<br><br>
+            	</td>
+            </tr>
+            <tr>
+            	<td class="data">
+            		<label>University Roll No.</label>
+            		<br><br>
+            	</td>
+            	<td>
+            		<input type="Number" name="uni_roll_No" placeholder="(Ex : 221809048638)" required>
+            		<br><br>
+            	</td>
+            </tr>
+            <tr>
+            	<td class="data">
+            		<label>Class Roll No.</label>
+            		<br><br>
+            	</td>
+            	<td>
+            		<input type="Number" name="coll_roll_No" placeholder="(Ex : 44)" required>
+            		<br><br>
+            	</td>
+            </tr>
+            <tr>
+            	<td class="data">
+            		<label>Session</label>
+            		<br><br>
+            	</td>
+            	<td>
+            		<select name="session" required>
+            			<option disabled selected>Select</option>
+            			<option>2020-2023</option>
+            			<option>2021-2024</option>
+            			<option>2022-2025</option>
+            		</select>
+            		<br><br>
+            	</td>
+            </tr>
+            <tr>
+            	<td class="data">
+            		<label>Semester</label>
+            		<br><br>
+            	</td>
+            	<td>
+
+            		<select name="semester" required >
+            			<option disabled selected>Select</option><option>I</option><option>II</option><option>III</option><option>IV</option><option>V</option><option>VI</option>
+            		</select>
+            		<br><br>
+            	</td>
+            </tr>
+            <tr>
+            	<td class="data">
+            		<label>Date of Addmission</label>
+            		<br><br>
+            	</td>
+            	<td>
+            		<input type="Date" name="date_of_admi" required>
+            		<br><br>
+            	</td>
+            </tr>
+            
+		    <tr>
+			    <td  class="headings" colspan="2">Contact Details</td>
+		    </tr>
+		    <tr>
+			    <td class="data">
+				    <label>Address</label>
+				    <br><br>
+			    </td>
+			    <td>
+				    <textarea name="address" rows="5" cols="35" maxlength="200" placeholder="Enter full address" required></textarea>
+				    <br><br>
+			    </td>
+		    </tr>
+		    <tr>
+			    <td class="data">
+				    <label>Phone No.</label>
+				    <br><br>
+			    </td>
+			    <td>
+				    <input type="tel" name="p_No" minlength="10" maxlength="10" placeholder="Enter 10 digit Phone no." required>
+				    <br><br>
+			    </td>
+		    </tr>
+		    <tr>
+			    <td class="data">
+				    <label>Email</label>
+				    <br><br>
+			    </td>
+			    <td>
+				    <input type="Email" name="email" placeholder="Enter a valid Email address" required>
+				    <br><br>
+			    </td>
+		    </tr>
+		    <tr>
+			    <td class="data">
+				    <label>Password</label>
+				    <br><br>
+			    </td>
+			    <td>
+				    <input type="Password" name="password" placeholder="(Ex : Pass@123)" required>
+				    <br><br>
+			    </td>
+		    </tr>
+
+		    <tr>
+			    <td  class="headings" colspan="2">Photograph & Signature</td>
+		    </tr>
+		    <tr>
+			    <td class="data">
+				    <label>Upload Photo</label>
+				    <br><br>
+			    </td>
+			    <td class="data">
+				    <label>Upload Signature</label>
+				    <br><br>
+			    </td>
+		    </tr>
+		    <tr>
+			    <td class="file">
+				    <input class="file file-upload" type="File" name="photo" accept="image/*" required>
+				    <br><br>
+			    </td>
+			    <td class="file">
+			  	    <input class="file file-upload" type="File" name="sign" accept="image/*" required>
+				    <br><br>
+			    </td>
+		    </tr>
+
+		    <tr>
+			    <td  class="headings" colspan="2">Declaration</td>
+		    </tr>
+		    <tr>
+			    <td class="data" colspan="2">
+				    <p>1. I hereby declare that all the statements made in this application are true, complete and correct to the best of my knowledge and belief.</p>
+			    </td>
+		    </tr>
+		    <tr>
+			    <td class="data" colspan="2">
+				    <input type="checkbox" name="condition" required>I Agree
+				    <br><br><br>
+			    </td>
+		    </tr>
+		    <tr>
+			    <td colspan="2" align="center">
+				    <input class="btn" type="submit" name="submit" value="SUBMIT">
+				    <input class="btn" type="reset" name="reset" value="RESET">
+				    <br><br>
+			    </td>
+		    </tr>
+	    </table>
+    </form>
+</body>
+</html>
