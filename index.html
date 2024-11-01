@@ -5,12 +5,6 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Student Registration Form</title>
 
-<!-- 	<script type="text/javascript">
-		function PrintPage () {
-			print();
-		}
-	</script> -->
-
 	<style type="text/css">
 
 		.background{
@@ -77,6 +71,9 @@
 
 		.warning {
 			color: darkred;
+			font-family: sans-serif;
+			letter-spacing: 2px;
+			line-height: 1.6;
 			font-size: 20px;
 			display: none; /* Hide by default */
 		}
@@ -111,17 +108,21 @@
 
 		/* Hide form on mobile */
 		@media only screen and (max-width: 768px) {
-			body {
-				display: flex;
-				justify-content: center;
-				align-items: center;
-				color: red;
-			}
 			form {
 				display: none;
 			}
 			.warning {
 				display: block; /* Show the warning message */
+				height: 15vh;
+				margin-top: 10%;
+				margin-left: 5%;
+			    margin-right: 5%;
+			    padding: 10px;
+			    background-color: #040b1c;
+			    text-align: center;
+			    opacity: 0.9;
+			    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+			    border-radius: 10px;
 			}
 		}
 
