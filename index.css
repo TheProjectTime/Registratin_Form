@@ -51,6 +51,11 @@
 	padding-left: 40px;
 }
 
+.gender{
+	font-size: 18px;
+	color: #627191;
+}
+
 .file{
 	padding-left: 25px;
 	background-color: transparent;
